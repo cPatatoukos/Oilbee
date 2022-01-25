@@ -10,4 +10,12 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    // protected $nav;
+
+    // public function __construct()
+    // {
+    //     $this->nav = Product::all();
+    //     View::share('nav', $this->nav);
+    // }
 }

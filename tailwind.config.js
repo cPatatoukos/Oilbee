@@ -9,6 +9,7 @@ module.exports = {
       center: 'true',
   },
   screens: {
+      'maxSm': {'max': '639px'},
       sm: '640px', // landscape mobile
       md: '768px', // tablet
       lg: '1024px', // laptop
@@ -20,23 +21,32 @@ module.exports = {
       transparent: 'transparent',
       black: 'black',
       white: '#fff',
-      primary: {
-          DEFAULT: 'var(--primary)',
-          light: 'var(--primary-light)',
-          lighter: 'var(--primary-lighter)',
-          lightest: 'var(--primary-lightest)',
-          dark: 'var(--primary-dark)',
-          darker: 'var(--primary-darker)',       
-          darkest: 'var(--primary-darkest)',
+      oil: {
+          DEFAULT: '#B9AF50',
+          light: '#BAB979',
+          lighter: '#BAC2A1',
+          lightest: '#F1EED4',
+          dark: '#8F8E4D',
+          darker: '#646D4A',       
+          darkest: '#243116',
       },
       honey: {
-          DEFAULT: 'var(--honey)',
-          light: 'var(--honey-light)',
-          lighter: 'var(--honey-lighter)',
-          lightest: 'var(--honey-lightest)',
-          dark: 'var(--honey-dark)',
-          darker: 'var(--honey-darker)',       
-          darkest: 'var(--honey-darkest)',
+          DEFAULT: '#EBA937',
+          light: '#ECBF75',
+          lighter: '#EDCA94',
+          lightest: '#EDD4B2',
+          dark: '#D2913A',
+          darker: '#B9783C',       
+          darkest: '#A56D36',
+      },
+      between: {
+          DEFAULT: '#D2AC44',
+          dark:'#AE8E38',
+          darker:'#836A2A',
+          darkest:'#6C5723',
+          light: '#DEC173',
+          lighter: '#E7D197',
+          lightest: '#F4EBD1',
       },
       gray: {
           DEFAULT: 'var(--gray)',
@@ -74,11 +84,11 @@ module.exports = {
           darker: 'var(--success-darker)'
       },
       error: {
-          DEFAULT: 'var(--error)',
-          light: 'var(--error-light)',
-          dark: 'var(--error-dark)'
+          DEFAULT: '#E95622',
       },
-      facebook: 'var(--facebook)',
+      facebook: '#4267B2',
+      instagram: '#833AB4',
+      youtube: '#FF0000',
       'google': '#4284f4',
       twitter: 'var(--twitter)',
   },
